@@ -32,7 +32,7 @@ class ModelTrainer:
                 test_array[:,-1]
             )
 
-             models={
+            models={
                 'LinearRegression':LinearRegression(),
                 'Lasso':Lasso(),
                 'Ridge':Ridge(),
